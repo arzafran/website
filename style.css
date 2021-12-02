@@ -8,6 +8,12 @@ body {
   overscroll-behavior: none;
 }
 
+@media (max-width: 800px) {
+  body {
+    max-width: 90%;
+  }
+}
+
 a,
 a:visited {
   color: blue;
